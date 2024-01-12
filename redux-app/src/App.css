@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+
+}
+
+.container {
+    background-color: darkgray;
+    color: white;
+    width: 350px;
+    height: 180px;
+    padding: 45px;
+    position: absolute;
+    left: 36%;
+    top: 10%;
+    border-radius: 10px;
+}
+
+.container button{
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.like{
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+
+.unlike{
+    background-color: lightcoral;
+    border: 2px solid red;
+}
+
+.like:hover{
+    background-color: green;
+    border: 2px solid lightgreen;
+    color: white;
+}
+
+.unlike:hover{
+    background-color: red;
+    border: 2px solid lightcoral;
+    color: white;
+}
+
